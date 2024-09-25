@@ -1,50 +1,51 @@
 {
-	"name": "wagmi-permit",
-	"version": "1.0.19",
-	"description": "Easy ERC-2612 and Dai permits with wagmi & viem",
-	"main": "./dist/index.mjs",
-	"types": "./dist/index.d.ts",
-	"files": [
-		"dist/**"
-	],
-	"exports": {
-		"require": {
-			"types": "./dist/index.d.cts",
-			"default": "./dist/index.js"
-		},
-		"import": {
-			"types": "./dist/index.d.ts",
-			"default": "./dist/index.mjs"
-		}
-	},
-	"type": "module",
-	"scripts": {
-		"prepublish": "pnpm test && pnpm build && pnpm tsc",
-		"test": "vitest run",
-		"build": "tsup",
-		"dev": "tsup --watch"
-	},
-	"keywords": [
-		"wagmi",
-		"viem",
-		"permit",
-		"eip2612"
-	],
-	"author": "Atris <atriscrypto@protonmail.com>",
-	"license": "GNU Affero v3",
-	"devDependencies": {
-		"@biomejs/biome": "1.3.3",
-		"@types/react": "*",
-		"tsup": "^8.0.1",
-		"typedoc": "^0.25.4",
-		"typescript": "^5.2.2",
-		"viem": "^1.19.8",
-		"vitest": "^0.34.6",
-		"wagmi": "^1.4.7"
-	},
-	"peerDependencies": {
-		"react": "*",
-		"viem": "1.x",
-		"wagmi": "1.x"
-	}
+  "name": "wagmi-permit",
+  "version": "1.0.20",
+  "description": "Easy ERC-2612 and Dai permits with wagmi & viem",
+  "main": "./dist/index.mjs",
+  "private": "true",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "exports": {
+    "require": {
+      "types": "./dist/index.d.cts",
+      "default": "./dist/index.js"
+    },
+    "import": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.mjs"
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "prepublish": "pnpm test && pnpm build && pnpm tsc",
+    "test": "vitest run",
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "keywords": [
+    "wagmi",
+    "viem",
+    "permit",
+    "eip2612"
+  ],
+  "author": "Atris <atriscrypto@protonmail.com>",
+  "license": "GNU Affero v3",
+  "devDependencies": {
+    "@biomejs/biome": "1.3.3",
+    "@types/react": "*",
+    "tsup": "^8.0.1",
+    "typedoc": "^0.25.4",
+    "typescript": "^5.2.2",
+    "viem": "^1.19.8",
+    "vitest": "^0.34.6",
+    "wagmi": "^1.4.7"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "viem": "1.x",
+    "wagmi": "1.x"
+  }
 }

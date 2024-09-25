@@ -1,11 +1,12 @@
 {
-	"compilerOptions": {
-		"module": "NodeNext",
-		"forceConsistentCasingInFileNames": true,
-		"strict": true,
-		"skipLibCheck": true,
-		"lib": ["ESNext", "DOM"],
-		"noEmit": true
-	},
-	"exclude": ["example-app"]
+  "compilerOptions": {
+    "module": "NodeNext",
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "lib": ["ESNext", "DOM"],
+    "noEmit": true
+  },
+  "exclude": ["example-app"]
 }
